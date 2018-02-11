@@ -1,0 +1,21 @@
+# SEIS 665 Week 3 Exercise
+
+# Open PowerShell as Administrator
+git init
+vagrant init
+
+# Edit Vagrantfile
+
+vagrant up
+vagrant ssh
+
+#
+# On the VM:
+#
+
+cd /etc/nginx/conf.d
+sudo vi default.conf
+
+# Edit default.conf
+
+sudo rc-service nginx restart
